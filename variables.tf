@@ -1,3 +1,10 @@
+
+variable "appenv" {
+  type        = string
+  description = "(optional) The application environment"
+  default = "development"
+}
+
 variable "recipient" {
   type        = string
   description = "(required) The Email Address that should receive alerts"
